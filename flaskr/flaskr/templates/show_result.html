@@ -1,0 +1,37 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if error %}
+    <li><em>{{ error }}</em>
+  {% endif %}
+  <form action="{{ url_for('query') }}" method=post class=query>
+    <dl>
+      <dt>Face Value:
+      <dd><input type=number min="0" name=fv required="required"> RMB
+      <dt>Coupon Rate:
+      <dd><input type=number min="-100" name=cr required="required"> %
+      <dt>Pay Frequency:
+      <dd> <select name=pf>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="6">6</option>
+        <option value="12">12</option>
+      </select> per year
+      <dt>Issue Date
+      <dd><input type=date name=id required="required"> Format yyyy-mm-dd
+      <dt>Settlement Date:
+      <dd><input type=date name=sd required="required"> Format yyyy-mm-dd
+      <dt>Selling Date:
+      <dd><input type=date name=pd required="required"> Format yyyy-mm-dd
+      <dt>Selling Price:
+      <dd><input type=number min="0" name=sp required="required"> RMB
+      <dd><input type=submit value=CalculateYield!>
+    </dl>
+  </form>
+  {% if results %}
+    <li><em> yield = {{ results['y'] }}</em>
+    <li><em> duration = {{ results['d'] }}</em>
+    <li><em> convexity = {{ results['c'] }}</em>
+  {% endif %}
+{% endblock %}

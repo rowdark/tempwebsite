@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="81px" height="61px" viewBox="0 0 81 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>treasuries-icn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Desktop---demo-button" transform="translate(-1733.000000, -677.000000)" stroke="#0A264D">
+            <g id="treasuries-icn" transform="translate(1734.000000, 678.000000)">
+                <polyline id="Stroke-3" stroke-width="2.3328" points="67 28 67 42.5002123 67 58"></polyline>
+                <polyline id="Stroke-5" stroke-width="2.3328" points="20 28 20 42.5002123 20 58"></polyline>
+                <polyline id="Stroke-1" stroke-width="2.475" stroke-dasharray="1.65,3.3" points="37 28 37 42.5002123 37 58"></polyline>
+                <polyline id="Stroke-1-Copy" stroke-width="2.475" stroke-dasharray="1.65,3.3" points="42 28 42 42.5002123 42 58"></polyline>
+                <polyline id="Stroke-3" stroke-width="2.475" points="60 28 60 42.5002123 60 58"></polyline>
+                <polyline id="Stroke-5" stroke-width="2.475" points="13 28 13 42.5002123 13 58"></polyline>
+                <path d="M0.246875,57.6727273 L78.7341979,57.6727273" id="Stroke-7" stroke-width="2.475"></path>
+                <path d="M39.0664052,27.7621814 L70.3964885,27.7621814 L74.262551,27.7621814 C75.1488323,27.7621814 75.8664156,27.0360041 75.8664156,26.1409677 C75.8664156,26.1409677 76.2408427,25.5179359 72.8989781,23.2320995 L39.7930406,0.582522273 L39.187374,0.582522273 L6.08143646,23.2320995 C2.74039479,25.5179359 3.11399896,26.1409677 3.11399896,26.1409677 C3.11399896,27.0360041 3.83240521,27.7621814 4.71786354,27.7621814 L8.58392604,27.7621814 L39.9140094,27.7621814" id="Stroke-9" stroke-width="2.475"></path>
+            </g>
+        </g>
+    </g>
+</svg>
